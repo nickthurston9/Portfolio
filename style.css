@@ -1,0 +1,157 @@
+body{
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+}
+video{
+    height: auto;
+    width: 100%;
+    z-index: -1;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+}
+#top{
+    height: 500px;
+}
+#main button{
+    font-weight: 700;
+    margin: 50px auto;
+    color: #333;
+    font-size: 2em;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    border: 2px solid #333;
+    padding: 5px;
+    background: rgba(255,255,255,.8);
+    transition: box-shadow 1s;
+    transition: color .75s;
+    transition: background .75s;
+}
+#main button:hover{
+    box-shadow: 2px 2px 30px darkGray;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 7px;
+    cursor: pointer;
+}
+.header{
+    padding: 3px;
+    margin: 15px auto;
+    width: 75%;
+    background: rgba(0,0,0,.8);
+    border-radius: 5px;
+}
+.header h1{
+    display: none;
+    margin: auto;
+    font-size: 4em;
+    color: #fff;
+    text-shadow: 0px 0px 20px black;
+    text-align: center;
+}
+.header p{
+    width: 70%;
+    margin: auto;
+    font-size: 2em;
+    color: #fff;
+    text-shadow: 0px 0px 20px black;
+    text-align: center;
+}
+#main{
+    margin-top: 8em;
+    padding: 1em;
+    background: #efefef;
+    height: 100%;
+}
+#mobileHR{
+    display: none;
+}
+h2{
+    margin: auto auto 15vh auto;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 200;
+}
+.iconRow{
+    display: flex;
+}
+.icon{
+    margin: auto;
+    height: 40px;
+}
+.experience p{
+    width: 50%;
+}
+img#arc{
+    height: 150px;
+}
+img#naz{
+    height: 200px;
+}
+li{
+    line-height: 2rem;
+}
+/* Media Qeuries */
+
+@media only screen and (max-width: 600px){
+    #top{
+        height: auto;
+    }
+    .header h1{
+    margin: auto;
+    font-size: 35px;
+    color: #fff;
+    text-shadow: 0px 0px 20px black;
+    text-align: center;
+    }
+    .header p{
+        width: 70%;
+        margin: auto;
+        font-size: 16px;
+        color: #fff;
+        text-shadow: 0px 0px 20px black;
+        text-align: center;
+    }
+    nav{
+        text-align: center;
+    }
+    /* Media Query Section Reminder */
+    #main button{
+        font-weight: 700;
+        margin: 20px auto;
+        color: #333;
+        font-size: 1em;
+        letter-spacing: 1px;
+        border-radius: 5px;
+        border: 2px solid #333;
+        padding: 5px;
+        background: rgba(255,255,255,.8);
+        transition: box-shadow 1s;
+        transition: color .75s;
+        transition: background .75s;
+    }
+    #mobileHR{
+        display: block;
+    }
+    .experience h2{
+        margin: 0 0 10vh 0;
+        text-align: center;
+        font-size: 2em;
+        font-weight: 300;
+        width: 100%;
+    }
+    .experience p{
+        width: 100%;
+    }
+    img#naz{
+        height: 90px;
+    }
+    #main{
+        margin-top: 3em;
+        padding: 1em;
+        background: #fff;
+        height: 100%;
+    }
+}

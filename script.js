@@ -1,4 +1,4 @@
-$('h1').slideDown(2000);
+$('h1').fadeIn(2000);
 
 $("#ExpBtn").click(function() {
     $('html,body').animate({
